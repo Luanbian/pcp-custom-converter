@@ -16,7 +16,7 @@ const NumericInput = ({ placeholder, onchange, value }: Props) => {
     event: NativeSyntheticEvent<TextInputChangeEventData>
   ) => {
     const inputValue = event.nativeEvent.text;
-    const numericValue = inputValue.replace(/[^0-9]/g, "");
+    const numericValue = inputValue.replace(/[^0-9.,]/g, "");
     onchange(numericValue);
   };
 

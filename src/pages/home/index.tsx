@@ -27,8 +27,11 @@ const Home = () => {
       setFps(fps.toFixed(2));
 
       const kilo = convertGramsToKilo(weight);
-      const joules = 0.5 * kilo * Math.pow(fps, 2);
+      const joules = 0.5 * kilo * Math.pow(parseFloat(mps), 2);
       setJoules(joules.toFixed(2));
+    } else {
+      setFps("");
+      setJoules("");
     }
   }, [mps, weight]);
 

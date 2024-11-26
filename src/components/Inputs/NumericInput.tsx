@@ -2,7 +2,6 @@ import {
   NativeSyntheticEvent,
   TextInput,
   TextInputChangeEventData,
-  TextInputKeyPressEventData,
 } from "react-native";
 
 interface Props {

@@ -7,7 +7,7 @@ interface Props {
   title: string;
 }
 
-const IconTitleInput = ({ Icon, title }: Props) => {
+const IconTitle = ({ Icon, title }: Props) => {
   return (
     <View style={styles.title}>
       <Icon color={"black"} />
@@ -16,4 +16,4 @@ const IconTitleInput = ({ Icon, title }: Props) => {
   );
 };
 
-export default IconTitleInput;
+export default IconTitle;

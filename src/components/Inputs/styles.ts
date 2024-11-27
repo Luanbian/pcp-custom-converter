@@ -1,11 +1,13 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  title: {
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 10,
+  input: {
+    fontSize: 28,
+    borderWidth: 1,
+    borderColor: "black",
+    borderRadius: 10,
+    width: "100%",
+    textAlign: "center",
   },
 });
 

@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: "#f0f0f0",
     flex: 1,
+    padding: 10,
     alignItems: "center",
     justifyContent: "center",
     gap: 48,
@@ -14,6 +15,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignItems: "center",
     justifyContent: "center",
+    width: "100%",
+    gap: 24,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -29,6 +32,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignItems: "center",
     justifyContent: "center",
+    width: "100%",
     shadowColor: "#000",
     shadowOffset: {
       width: 0,

@@ -3,14 +3,14 @@ import {
   TextInput,
   TextInputChangeEventData,
 } from "react-native";
+import styles from "./styles";
 
 interface Props {
-  placeholder: string;
   onchange: (value: string) => void;
   value: string;
 }
 
-const NumericInput = ({ placeholder, onchange, value }: Props) => {
+const NumericInput = ({ onchange, value }: Props) => {
   const handleChange = (
     event: NativeSyntheticEvent<TextInputChangeEventData>
   ) => {
@@ -23,9 +23,8 @@ const NumericInput = ({ placeholder, onchange, value }: Props) => {
     <TextInput
       keyboardType="numeric"
       value={value}
-      placeholder={placeholder}
       onChange={handleChange}
-      style={{ fontSize: 28 }}
+      style={styles.input}
     />
   );
 };

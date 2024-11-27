@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Component from "../../components/Home";
-import { SafeAreaView, View } from "react-native";
+import { SafeAreaView } from "react-native";
 import { StatusBar } from "expo-status-bar";
 
 const Home = () => {

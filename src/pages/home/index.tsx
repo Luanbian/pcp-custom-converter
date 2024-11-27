@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Component from "../../components/Home";
+import { SafeAreaView, View } from "react-native";
+import { StatusBar } from "expo-status-bar";
 
 const Home = () => {
   const [mps, setMps] = useState("");
@@ -36,10 +38,13 @@ const Home = () => {
   }, [mps, weight]);
 
   return (
-    <Component
-      data={{ mps, weight, fps, joules }}
-      actions={{ handleChangeMPS, handleChangeWeight }}
-    />
+    <SafeAreaView style={{ flex: 1 }}>
+      <StatusBar style="auto" />
+      <Component
+        data={{ mps, weight, fps, joules }}
+        actions={{ handleChangeMPS, handleChangeWeight }}
+      />
+    </SafeAreaView>
   );
 };
 

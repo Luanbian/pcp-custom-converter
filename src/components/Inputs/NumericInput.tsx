@@ -25,6 +25,7 @@ const NumericInput = ({ placeholder, onchange, value }: Props) => {
       value={value}
       placeholder={placeholder}
       onChange={handleChange}
+      style={{ fontSize: 28 }}
     />
   );
 };

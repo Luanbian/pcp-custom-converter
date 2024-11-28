@@ -20,13 +20,10 @@
     },
     "android": {
       "package": "com.pcp.custom.app",
-      "versionCode": 7,
       "adaptiveIcon": {
         "backgroundColor": "#1D1D1B"
       },
-      "permissions": [
-        "INTERNET"
-      ]
+      "permissions": ["INTERNET"]
     },
     "extra": {
       "eas": {

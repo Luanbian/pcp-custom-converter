@@ -1,22 +1,30 @@
 {
   "expo": {
-    "name": "pcp-custom-converter",
-    "slug": "pcp-custom-converter",
-    "version": "1.0.0",
+    "name": "PCP Custom APP",
+    "slug": "pcp-custom-app",
+    "icon": "./assets/images/icon.png",
+    "version": "0.0.7",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.pcp.custom.app",
+      "versionCode": 7,
       "adaptiveIcon": {
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#1D1D1B"
+      },
+      "permissions": ["INTERNET"]
     }
   }
 }

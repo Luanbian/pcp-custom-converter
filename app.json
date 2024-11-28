@@ -24,7 +24,14 @@
       "adaptiveIcon": {
         "backgroundColor": "#1D1D1B"
       },
-      "permissions": ["INTERNET"]
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ef4106b6-4a63-47ea-8bd1-d80ce8b01068"
+      }
     }
   }
 }

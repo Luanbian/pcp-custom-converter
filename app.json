@@ -2,14 +2,14 @@
   "expo": {
     "name": "PCP Custom APP",
     "slug": "pcp-custom-app",
-    "icon": "assets/images/icone.jpg",
+    "icon": "assets/images/icone.png",
     "version": "0.0.7",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "resizeMode": "cover",
-      "image": "assets/images/splash.jpg",
+      "image": "assets/images/splash.png",
       "backgroundColor": "#1D1D1B"
     },
     "updates": {
@@ -21,7 +21,9 @@
     },
     "android": {
       "package": "com.pcp.custom.app",
+      "icon": "assets/images/icone.png",
       "adaptiveIcon": {
+        "foregroundImage": "assets/images/splash.png",
         "backgroundColor": "#1D1D1B"
       },
       "permissions": ["INTERNET"]

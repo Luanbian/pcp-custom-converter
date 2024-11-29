@@ -9,7 +9,8 @@
     "newArchEnabled": true,
     "splash": {
       "resizeMode": "cover",
-      "image": "assets/images/splash.jpg"
+      "image": "assets/images/splash.jpg",
+      "backgroundColor": "#1D1D1B"
     },
     "updates": {
       "enabled": true,

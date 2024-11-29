@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "image": "assets/images/splash.jpg"
     },
     "updates": {

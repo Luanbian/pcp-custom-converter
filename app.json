@@ -2,14 +2,14 @@
   "expo": {
     "name": "PCP Custom APP",
     "slug": "pcp-custom-app",
-    "icon": "assets/images/icone.png",
+    "icon": "assets/images/icone.jpg",
     "version": "0.0.7",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "resizeMode": "contain",
-      "backgroundColor": "#ffff"
+      "image": "assets/images/splash.jpg"
     },
     "updates": {
       "enabled": true,

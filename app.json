@@ -12,8 +12,8 @@
     },
     "splash": {
       "resizeMode": "contain",
-      "image": "assets/images/logo.png",
-      "backgroundColor": "#FFFF"
+      "image": "assets/images/icone.png",
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true
@@ -27,9 +27,9 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#FFFF",
+          "backgroundColor": "#000000",
           "resizeMode": "contain",
-          "image": "assets/images/logo.png"
+          "image": "assets/images/icone.png"
         }
       ]
     ],

@@ -2,32 +2,37 @@
   "expo": {
     "name": "PCP Custom APP",
     "slug": "pcp-custom-app",
-    "icon": "assets/images/icone.png",
     "version": "0.0.7",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "splash": {
-      "resizeMode": "cover",
-      "image": "assets/images/splash.png",
-      "backgroundColor": "#1D1D1B"
-    },
     "updates": {
       "enabled": true,
       "fallbackToCacheTimeout": 0
+    },
+    "splash": {
+      "resizeMode": "contain",
+      "image": "assets/images/logo.png",
+      "backgroundColor": "#FFFF"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "package": "com.pcp.custom.app",
-      "icon": "assets/images/icone.png",
-      "adaptiveIcon": {
-        "foregroundImage": "assets/images/splash.png",
-        "backgroundColor": "#1D1D1B"
-      },
-      "permissions": ["INTERNET"]
+      "permissions": ["INTERNET"],
+      "icon": "assets/images/icone.png"
     },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFF",
+          "resizeMode": "contain",
+          "image": "assets/images/logo.png"
+        }
+      ]
+    ],
     "extra": {
       "eas": {
         "projectId": "ef4106b6-4a63-47ea-8bd1-d80ce8b01068"

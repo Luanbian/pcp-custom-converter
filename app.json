@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "PCP Custom APP",
+    "name": "Joule Guns",
     "slug": "pcp-custom-app",
-    "version": "0.0.7",
+    "version": "0.0.18",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -10,8 +10,9 @@
       "enabled": true,
       "fallbackToCacheTimeout": 0
     },
+    "icon": "assets/images/icone.png",
     "splash": {
-      "resizeMode": "contain",
+      "resizeMode": "stretch",
       "image": "assets/images/icone.png",
       "backgroundColor": "#000000"
     },
@@ -21,14 +22,17 @@
     "android": {
       "package": "com.pcp.custom.app",
       "permissions": ["INTERNET"],
-      "icon": "assets/images/icone.png"
+      "adaptiveIcon": {
+        "foregroundImage": "assets/images/icone.png",
+        "backgroundColor": "#000000"
+      }
     },
     "plugins": [
       [
         "expo-splash-screen",
         {
           "backgroundColor": "#000000",
-          "resizeMode": "contain",
+          "resizeMode": "stretch",
           "image": "assets/images/icone.png"
         }
       ]
